@@ -1,5 +1,5 @@
 import heroImage from "@/assets/hero-mining.jpg";
-import equinoxLogo from "@/assets/equinox-logo.png";
+import equinoxLogo from "@/assets/equinox-logo-new.png";
 
 export const Hero = () => {
   return (
