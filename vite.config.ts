@@ -4,8 +4,15 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/testing/",                 // <<--- IMPORTANT for /testing subfolder
-  server: { host: "::", port: 8080 },
+  base: "./",   // 👈 this makes assets load relative to the folder
+  server: {
+    host: "::",
+    port: 8080,
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
 }));
