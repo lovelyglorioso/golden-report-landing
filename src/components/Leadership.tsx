@@ -7,7 +7,7 @@ export const Leadership = () => {
             Leadership With a <span className="bg-gradient-gold bg-clip-text text-transparent">Track Record</span>
           </h2>
           
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
               At the center of this transformation is a leadership team that blends vision with proven execution. Ross Beaty, Equinox Gold's Chairman, is a renowned mining entrepreneur with decades of success. CEO Darren Hall and his executive team bring a wealth of operational and financial expertise, guiding Equinox Gold's assets from development to production.
             </p>

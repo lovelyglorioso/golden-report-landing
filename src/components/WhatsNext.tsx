@@ -17,7 +17,7 @@ export const WhatsNext = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               What <span className="bg-gradient-gold bg-clip-text text-transparent">Comes Next</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-foreground">
               Looking ahead, investors and industry watchers can expect several near-term milestones:
             </p>
           </div>
@@ -30,7 +30,7 @@ export const WhatsNext = () => {
                     <span className="w-8 h-8 bg-gradient-gold rounded-full flex items-center justify-center text-gold-foreground font-bold text-sm mt-1 flex-shrink-0">
                       {index + 1}
                     </span>
-                    <p className="text-muted-foreground leading-relaxed">{milestone}</p>
+                    <p className="text-foreground leading-relaxed">{milestone}</p>
                   </li>
                 ))}
               </ul>

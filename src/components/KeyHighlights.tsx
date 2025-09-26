@@ -63,7 +63,7 @@ export const KeyHighlights = () => {
                 <p className="text-sm font-medium text-primary mb-3">
                   {highlight.subtitle}
                 </p>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-foreground leading-relaxed">
                   {highlight.description}
                 </p>
               </CardContent>
