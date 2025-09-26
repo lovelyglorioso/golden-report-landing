@@ -56,7 +56,7 @@ export const EmailOptIn = () => {
                   <h3 className="text-2xl font-semibold text-foreground mb-4">
                     Get the full story behind:
                   </h3>
-                  <ul className="space-y-3 text-muted-foreground">
+                  <ul className="space-y-3 text-foreground">
                     <li className="flex items-center space-x-3">
                       <span className="w-2 h-2 bg-gold rounded-full"></span>
                       <span>The milestones that matter</span>
@@ -92,13 +92,31 @@ export const EmailOptIn = () => {
                     <Button 
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold py-6 text-lg shadow-gold transition-spring hover:scale-105 disabled:opacity-50"
+                      className="w-full bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-4 py-4 text-xs md:text-sm shadow-gold transition-spring hover:scale-105 disabled:opacity-50 leading-tight"
                     >
-                      {isSubmitting ? "Sending Report..." : "📧 Download Your Free Special Report on Equinox Gold"}
+                      {isSubmitting ? "Sending..." : "Download Your Free Special Report on Equinox Gold"}
                     </Button>
                     
-                    <p className="text-xs text-muted-foreground text-center">
-                      We respect your privacy. No spam, unsubscribe anytime.
+                    <p className="text-xs text-foreground mt-6 max-w-2xl mx-auto leading-relaxed">
+                      I acknowledge I have read and understand the{" "}
+                      <a 
+                        href="https://tipsfortraders.com/privacy-policy/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline font-medium"
+                      >
+                        TipsForTraders
+                      </a>{" "}
+                      and{" "}
+                      <a 
+                        href="https://www.equinoxgold.com/privacy-policy/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline font-medium"
+                      >
+                        Equinox Gold
+                      </a>{" "}
+                      privacy policies, and consent to the use of my personal data for marketing purposes by clicking the button above.
                     </p>
                   </form>
                 </div>
