@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "https://imastocktrader.com/testing/",  // 👈 full hardcoded URL
+  base: "./",  // Relative paths work anywhere
   server: {
     host: "::",
     port: 8080,
