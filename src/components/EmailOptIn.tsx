@@ -42,11 +42,10 @@ export const EmailOptIn = () => {
             <div className="bg-gradient-hero p-8 text-white text-center">
               <CardHeader className="pb-4">
                 <CardTitle className="text-3xl md:text-4xl font-bold mb-4">
-                  📊 Download the Special Report on Equinox Gold
+                  📊 Get the Special Report: Equinox Gold's Growth Path
                 </CardTitle>
                 <p className="text-xl text-white/90 leading-relaxed">
-                  Get exclusive insights into Valentine, Greenstone, Castle Mountain, and the strategy 
-                  positioning Equinox Gold as a leading North American gold producer.
+                  Inside, you'll find a deeper look at Valentine, Greenstone, Castle Mountain, and the strategy that's positioning Equinox Gold as a leading North American gold producer.
                 </p>
               </CardHeader>
             </div>
@@ -55,24 +54,20 @@ export const EmailOptIn = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-4">
-                    What's Inside the Report:
+                    Get the full story behind:
                   </h3>
                   <ul className="space-y-3 text-muted-foreground">
                     <li className="flex items-center space-x-3">
                       <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>Detailed analysis of Valentine Gold Mine operations</span>
+                      <span>The milestones that matter</span>
                     </li>
                     <li className="flex items-center space-x-3">
                       <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>Growth strategy and upcoming catalysts</span>
+                      <span>The strategy behind the growth</span>
                     </li>
                     <li className="flex items-center space-x-3">
                       <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>Leadership team track record and vision</span>
-                    </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>Castle Mountain Phase 2 project timeline</span>
+                      <span>What's next for this rising Canadian gold producer</span>
                     </li>
                   </ul>
                 </div>
@@ -99,7 +94,7 @@ export const EmailOptIn = () => {
                       disabled={isSubmitting}
                       className="w-full bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold py-6 text-lg shadow-gold transition-spring hover:scale-105 disabled:opacity-50"
                     >
-                      {isSubmitting ? "Sending Report..." : "📧 Get Your Free Report"}
+                      {isSubmitting ? "Sending Report..." : "📧 Download Your Free Special Report on Equinox Gold"}
                     </Button>
                     
                     <p className="text-xs text-muted-foreground text-center">

@@ -37,11 +37,13 @@ export const KeyHighlights = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why This <span className="bg-gradient-gold bg-clip-text text-transparent">Milestone Matters</span>
+            Why This <span className="bg-gradient-gold bg-clip-text text-transparent">First Gold Pour Matters</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Valentine's first gold pour demonstrates execution and positions Equinox Gold 
-            for unprecedented growth in Canadian mining.
+            For any mining company, moving from construction to production is a turning point. Valentine's first pour demonstrates execution: commissioning of the processing plant has been smoother than anticipated, with mill throughput averaging nearly half of design capacity during the first two weeks.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
+            This means Equinox Gold is already ahead of schedule and on track to have Valentine hit full nameplate capacity of 2.5 million tonnes per year by Q2 2026.
           </p>
         </div>
         

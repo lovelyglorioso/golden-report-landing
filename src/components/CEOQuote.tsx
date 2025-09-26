@@ -6,9 +6,7 @@ export const CEOQuote = () => {
           <div className="mb-8">
             <div className="text-6xl text-gold mb-6">"</div>
             <blockquote className="text-2xl md:text-3xl font-medium leading-relaxed mb-8">
-              Commissioning of the Valentine process plant is progressing extremely well, 
-              with mill throughput averaging 47% of nameplate for the first 15 days of operation, 
-              resulting in first gold being poured earlier than expected.
+              Commissioning of the Valentine process plant is progressing extremely well, with mill throughput averaging 47% of nameplate for the first 15 days of operation, resulting in first gold being poured earlier than expected, on September 14, 2025.
             </blockquote>
           </div>
           

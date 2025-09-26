@@ -30,8 +30,11 @@ export const Hero = ({ onDownloadClick }: HeroProps) => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            A defining moment in Canadian gold mining. Valentine Gold Mine has poured first gold, 
-            positioning Equinox Gold to become Canada's second-largest gold producer.
+            In mining, milestones matter. And for Equinox Gold (TSX: EQX | NYSE-A: EQX), one of the most important has just arrived. The company poured first gold at its Valentine Gold Mine in Newfoundland and Labrador—an achievement that marks the start of a new era for both Equinox Gold and Canadian gold production.
+          </p>
+          
+          <p className="text-lg md:text-xl text-white/85 mb-8 leading-relaxed max-w-3xl mx-auto">
+            Valentine is more than another mine. Once fully ramped up, it will be the largest gold mine in Atlantic Canada, producing 175,000–200,000 ounces per year for the first 12 years of its 14-year reserve life. Together with Equinox Gold's Greenstone Mine in Ontario, now also ramping up, this milestone positions the company to become Canada's second-largest gold producer.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -40,7 +43,7 @@ export const Hero = ({ onDownloadClick }: HeroProps) => {
               size="lg"
               className="bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-8 py-6 text-lg shadow-gold transition-spring hover:scale-105"
             >
-              📊 Download Special Report
+              📊 Download the Special Report on Equinox Gold Here
             </Button>
             
             <Button 
