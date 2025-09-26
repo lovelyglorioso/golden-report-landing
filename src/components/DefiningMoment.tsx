@@ -51,7 +51,7 @@ export const DefiningMoment = () => {
             <span className="bg-gradient-gold bg-clip-text text-transparent"> Canadian Gold Mining</span>
           </h2>
           
-          <div className="prose prose-lg md:prose-xl max-w-none text-muted-foreground mb-12 space-y-6">
+          <div className="prose prose-lg md:prose-xl max-w-none text-foreground mb-12 space-y-6">
             <p className="text-lg md:text-xl leading-relaxed">
               In mining, milestones matter. And for Equinox Gold (TSX: EQX | NYSE-A: EQX), one of the most important has just arrived. The company poured first gold at its Valentine Gold Mine in Newfoundland and Labrador—an achievement that marks the start of a new era for both Equinox Gold and Canadian gold production.
             </p>
@@ -89,13 +89,13 @@ export const DefiningMoment = () => {
               </div>
             </form>
             
-            <p className="text-xs text-muted-foreground mt-6 max-w-2xl mx-auto">
+            <p className="text-xs text-foreground mt-6 max-w-2xl mx-auto leading-relaxed">
               I acknowledge I have read and understand the{" "}
               <a 
                 href="https://tipsfortraders.com/privacy-policy/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="text-primary hover:underline font-medium"
               >
                 TipsForTraders
               </a>{" "}
@@ -104,7 +104,7 @@ export const DefiningMoment = () => {
                 href="https://www.equinoxgold.com/privacy-policy/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="text-primary hover:underline font-medium"
               >
                 Equinox Gold
               </a>{" "}
