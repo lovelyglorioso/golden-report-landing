@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Building2, Gem } from "lucide-react";
 
 export const StrategicMoves = () => {
   return (
@@ -14,10 +15,12 @@ export const StrategicMoves = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <Card className="shadow-elegant border-border/50 bg-card/80 backdrop-blur-sm">
+          <Card className="group shadow-elegant border-border/50 bg-card/80 backdrop-blur-sm hover:shadow-gold transition-spring hover:-translate-y-1">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-primary flex items-center gap-3">
-                <span className="text-3xl">🏗️</span>
+              <CardTitle className="text-2xl font-bold text-primary flex items-center gap-4">
+                <div className="p-3 rounded-lg bg-primary/5 border border-primary/10 group-hover:bg-primary/10 group-hover:border-primary/20 transition-spring">
+                  <Building2 className="w-6 h-6 text-primary" strokeWidth={1.5} />
+                </div>
                 Castle Mountain Accepted into FAST-41 Program
               </CardTitle>
             </CardHeader>
@@ -31,10 +34,12 @@ export const StrategicMoves = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-elegant border-border/50 bg-card/80 backdrop-blur-sm">
+          <Card className="group shadow-elegant border-border/50 bg-card/80 backdrop-blur-sm hover:shadow-gold transition-spring hover:-translate-y-1">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-primary flex items-center gap-3">
-                <span className="text-3xl">💎</span>
+              <CardTitle className="text-2xl font-bold text-primary flex items-center gap-4">
+                <div className="p-3 rounded-lg bg-primary/5 border border-primary/10 group-hover:bg-primary/10 group-hover:border-primary/20 transition-spring">
+                  <Gem className="w-6 h-6 text-primary" strokeWidth={1.5} />
+                </div>
                 Nevada Assets Divested
               </CardTitle>
             </CardHeader>
