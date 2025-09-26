@@ -68,7 +68,7 @@ export const DefiningMoment = () => {
             </h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="max-w-md mx-auto">
+              <div className="max-w-md mx-auto space-y-4">
                 <Input
                   type="email"
                   placeholder="Enter your email address"
@@ -77,21 +77,38 @@ export const DefiningMoment = () => {
                   className="w-full px-4 py-3 text-lg border-2 border-border focus:border-primary rounded-lg"
                   disabled={isSubmitting}
                 />
+                
+                <Button
+                  type="submit"
+                  size="lg"
+                  disabled={isSubmitting}
+                  className="bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg shadow-gold transition-spring hover:scale-105 w-full"
+                >
+                  {isSubmitting ? "Sending..." : "Download the Special Report on Equinox Gold Here"}
+                </Button>
               </div>
-              
-              <Button
-                type="submit"
-                size="lg"
-                disabled={isSubmitting}
-                className="bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg shadow-gold transition-spring hover:scale-105 w-full sm:w-auto"
-              >
-                {isSubmitting ? "Sending..." : "📊 Download the Special Report on Equinox Gold Here"}
-              </Button>
             </form>
             
-            <p className="text-xs text-muted-foreground mt-4 max-w-2xl mx-auto">
-              By submitting your email, you agree to receive our newsletter and special reports. 
-              You can unsubscribe at any time.
+            <p className="text-xs text-muted-foreground mt-6 max-w-2xl mx-auto">
+              I acknowledge I have read and understand the{" "}
+              <a 
+                href="https://tipsfortraders.com/privacy-policy/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                TipsForTraders
+              </a>{" "}
+              and{" "}
+              <a 
+                href="https://www.equinoxgold.com/privacy-policy/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Equinox Gold
+              </a>{" "}
+              privacy policies, and consent to the use of my personal data for marketing purposes by clicking the button above.
             </p>
           </div>
         </div>
