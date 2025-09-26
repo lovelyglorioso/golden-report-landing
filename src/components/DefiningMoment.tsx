@@ -82,9 +82,9 @@ export const DefiningMoment = () => {
                   type="submit"
                   size="lg"
                   disabled={isSubmitting}
-                  className="bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg shadow-gold transition-spring hover:scale-105 w-full"
+                  className="bg-gradient-gold hover:bg-gradient-to-r hover:from-gold-dark hover:to-gold text-gold-foreground font-semibold px-4 md:px-6 py-4 md:py-6 text-xs md:text-sm shadow-gold transition-spring hover:scale-105 w-full leading-tight"
                 >
-                  {isSubmitting ? "Sending..." : "Download the Special Report on Equinox Gold Here"}
+                  {isSubmitting ? "Sending..." : "Download Your Free Special Report on Equinox Gold"}
                 </Button>
               </div>
             </form>
