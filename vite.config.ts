@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "./",   // 👈 this makes assets load relative to the folder
+  base: "https://imastocktrader.com/testing/",  // 👈 full hardcoded URL
   server: {
     host: "::",
     port: 8080,
