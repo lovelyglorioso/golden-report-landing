@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/testing/",   // 👈 tells Vite to serve from /testing/
+  base: "./",   // 👈 this makes assets load relative to the folder
   server: {
     host: "::",
     port: 8080,
