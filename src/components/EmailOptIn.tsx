@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
+import { FileText, CheckCircle, TrendingUp, Target } from "lucide-react";
 
 export const EmailOptIn = () => {
   const [email, setEmail] = useState("");
@@ -41,8 +42,13 @@ export const EmailOptIn = () => {
           <Card className="shadow-elegant border-border/50 overflow-hidden">
             <div className="bg-gradient-hero p-8 text-white text-center">
               <CardHeader className="pb-4">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="p-4 bg-white/20 rounded-full">
+                    <FileText className="w-12 h-12 text-white" />
+                  </div>
+                </div>
                 <CardTitle className="text-3xl md:text-4xl font-bold mb-4">
-                  📊 Get the Special Report: Equinox Gold's Growth Path
+                  Get the Special Report: Equinox Gold's Growth Path
                 </CardTitle>
                 <p className="text-xl text-white/90 leading-relaxed">
                   Inside, you'll find a deeper look at Valentine, Greenstone, Castle Mountain, and the strategy that's positioning Equinox Gold as a leading North American gold producer.
@@ -56,18 +62,24 @@ export const EmailOptIn = () => {
                   <h3 className="text-2xl font-semibold text-foreground mb-4">
                     Get the full story behind:
                   </h3>
-                  <ul className="space-y-3 text-foreground">
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>The milestones that matter</span>
+                  <ul className="space-y-4 text-foreground">
+                    <li className="flex items-center space-x-3 group">
+                      <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                        <CheckCircle className="w-5 h-5 text-primary" />
+                      </div>
+                      <span className="font-medium">The milestones that matter</span>
                     </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>The strategy behind the growth</span>
+                    <li className="flex items-center space-x-3 group">
+                      <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                        <TrendingUp className="w-5 h-5 text-primary" />
+                      </div>
+                      <span className="font-medium">The strategy behind the growth</span>
                     </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-gold rounded-full"></span>
-                      <span>What's next for this rising Canadian gold producer</span>
+                    <li className="flex items-center space-x-3 group">
+                      <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                        <Target className="w-5 h-5 text-primary" />
+                      </div>
+                      <span className="font-medium">What's next for this rising Canadian gold producer</span>
                     </li>
                   </ul>
                 </div>
